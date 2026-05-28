@@ -1,15 +1,15 @@
 #include <iostream>
 #include <string>
 
-// Основная функция программы
+// Main function of the program
 int main() {
-    std::string name;  // Переменная для хранения имени пользователя
+    std::string name; // Variable for storing the user's name
 
-    // Запрос имени у пользователя
+    // Ask user for name
     std::cout << "Enter your name: ";
-    std::cin >> name;  // Считываем имя
+    std::cin >> name; // Read the name
 
-    // Вывод приветствия с именем
+    // Print greeting with name
     std::cout << "Hello world from " << name << std::endl;
 
     return 0;
